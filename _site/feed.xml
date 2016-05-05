@@ -1,18 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Xue&#39;s Github Blog</title>
+    <title>Track &amp; Song</title>
     <description>To be a good web developer., Write down what I aquired in everyday working process.
 </description>
     <link>http://skintest.github.io//</link>
     <atom:link href="http://skintest.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 05 May 2016 15:58:55 +0800</pubDate>
-    <lastBuildDate>Thu, 05 May 2016 15:58:55 +0800</lastBuildDate>
+    <pubDate>Thu, 05 May 2016 18:26:23 +0800</pubDate>
+    <lastBuildDate>Thu, 05 May 2016 18:26:23 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
+        <title>Wish a Welcome</title>
+        <description>&lt;p&gt;this article is about how to build your blog with jekyll
+&lt;!-- more --&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;blog-building&quot;&gt;Blog Building&lt;/h1&gt;
+
+&lt;h3 id=&quot;jekyll&quot;&gt;Jekyll&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;text transform engine. based on ruby, and …&lt;/li&gt;
+  &lt;li&gt;jekyll is executable&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll build &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;src/dest options] &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;watch options]
+jekyll serve
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;‘config.yml’ is the &lt;a href=&quot;https://jekyllrb.com/docs/configuration/&quot;&gt;config&lt;/a&gt; file for jekyll&lt;/li&gt;
+  &lt;li&gt;YAML Front matter, things like below
+    &lt;ul&gt;
+      &lt;li&gt;keys
+        &lt;ol&gt;
+          &lt;li&gt;first thing of file&lt;/li&gt;
+          &lt;li&gt;triple dash line&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/frontmatter/&quot;&gt;Front Matter&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://my.oschina.net/u/1861837/blog/526142?p=&quot;&gt;YAML&lt;/a&gt;
+        &lt;ol&gt;
+          &lt;li&gt;indentation should be: 2&lt;/li&gt;
+          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;key: value&lt;/code&gt;&lt;/li&gt;
+          &lt;li&gt;nest key value pair&lt;/li&gt;
+          &lt;li&gt;Array specified by dash and a white space&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-YAML&quot;&gt;---
+layout: post
+title: Blogging Like a Hacker
+---
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1_key:
+  2_key: value
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-YAML&quot;&gt;key: - list_value_one- list_value_two- list_value_three
+key:
+  - list_value_one
+  - list_value_two
+  - list_value_three
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;github-pages&quot;&gt;github pages&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;create &amp;lt;username/ orgname&amp;gt;.github.io&lt;/li&gt;
+  &lt;li&gt;write file and then push, github will host for you under 1G and 10G&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Thu, 05 May 2016 17:42:54 +0800</pubDate>
+        <link>http://skintest.github.io//jekyll/learning/2016/05/05/jekyll-starter.html</link>
+        <guid isPermaLink="true">http://skintest.github.io//jekyll/learning/2016/05/05/jekyll-starter.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>learning</category>
+        
+      </item>
+    
+      <item>
         <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.
+&lt;!-- more --&gt;&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
