@@ -6,14 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Track & Song
-email: tracknsong@foxmail.com
+title: BeeFE
+email: hr@beebank.com
 description: > # this means to ignore newlines until "baseurl:"
-  To be a good web developer., Write down what I aquired in everyday working process.
+  A little better from Web Front End.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://skintest.github.io/" # the base hostname & protocol for your site
-twitter_username: skintaste
-github_username:  skinTest
+url: "http://beefe.github.io/" # the base hostname & protocol for your site
+github_username:  beefe
 excerpt_separator: <!-- more --> # this means, in each post, things before this will be grabbed into excerpt
 
 # Build settings
